@@ -861,15 +861,37 @@ const AllTrips = [
     }, 
     {
         name: "Pretoria", 
-        description: "South Africa’s administrative centre is a handsome city with some gracious old architecture, significant historical sites, prosperous leafy suburbs, and wide streets lined with jacarandas that burst into a beautiful purple haze in October and November. It’s always been more more conservative than Jo’burg – this was the centre of the apartheid regime and its very name a symbol of oppression. However, as the inner city undergoes something of a renaissance, and Pretoria becomes more cosmopolitan, there's a sense that the city is beginning to look to the future.", 
+        description: "The Pretoria National Botanic Garden, in the city's eastern suburbs, is a peaceful oasis close to the city. The 76-hectare gardens spotlight South African species, with more than half the country's tree species, as well as many flowering plants, cycads, aloes, and other impressive collections. A quartzite ridge slices the park into two sections, with vegetation in the warmer north-facing half contrasting with that in the colder south-facing section.", 
         startDate: "2022-07-05", 
         endDate: "2022-07-13", 
-        price: , 
+        // price: , 
         adults: 2, 
-        hotels: "", 
-        flight: , 
-        social: , 
-        attractions:[
+        // hotels: "", 
+        // flight: , 
+        social: [
+            {
+                name: "67 Blankets for Nelson Mandela Day",
+                description: "67 Blankets for Nelson Mandela Day is a charity that collects handmade knitted or crocheted blankets from volunteers to distribute to a specific charity each year on Mandela Day.",
+                time: 180
+            },
+            {
+                name: "The Viva Foundation Mandela Day Volunteer Opportunities",
+                description: "The Viva Foundation runs a variety of childcare and education projects in Mamelodi. Viva meets the most urgent needs, such as food-insecurity and inequality and facilitates access to the economy by supporting economic self-empowerment, through training and job-creation.",
+                time: 180
+            },
+            {
+                name: "Save The Children",
+                description: "Save The Children is a children’s charity that operates in Gauteng, KwaZulu-Natal, Limpopo and Free State, in five programme areas: early childhood care, health and nutrition, education, child protection and child rights governance.",
+                time: 120
+            },
+            {
+                name: "LifeLine",
+                description: "LifeLine acts as an emotional first-aid station to the greater Pretoria area. This charity provides a confidential crisis intervention service that includes telephone counselling, face-to-face counselling, rape counselling and trauma counselling.",
+                time: 120
+            }
+
+        ], 
+        attractions: [
             {
                 name: "Pretoria National Botanic Garden", 
                 description: "The Pretoria National Botanic Garden, in the city's eastern suburbs, is a peaceful oasis close to the city. The 76-hectare gardens spotlight South African species, with more than half the country's tree species, as well as many flowering plants, cycads, aloes, and other impressive collections. A quartzite ridge slices the park into two sections, with vegetation in the warmer north-facing half contrasting with that in the colder south-facing section.", 
@@ -895,8 +917,8 @@ const AllTrips = [
                 description: "A haven for hikers and nature lovers, Moreleta Kloof Nature Reserve spans 100 hectares in the foothills of Moreleta Kloof near the city center. In the 19th century, the reserve was a dairy farm, and one of the original buildings has been converted to a restaurant where visitors can dine on a beautiful deck, often with a parade of animals in view. Springbok, impala, bushbuck, zebra, and ostrich are among the wildlife found in the park, as well as an abundance of birds. A tributary flows through the reserve providing water for the animals, and hiking trails range in length from 1.5 kilometers to more than three kilometers. Other lovely green spaces close to the city center include Faerie Glen Nature Reserve, part of the Moreleta Spruit Nature Trail, which follows a winding course along the banks of a stream through ever-changing scenery, as well as Groenkloof Nature Reserve with hiking, horseback riding, and 4WD trails. Birders will enjoy the Austin Roberts Bird Sanctuary, named after the South African ornithologist who wrote a popular handbook on the birds of South Africa. Bird hides line the shores of the reservoir, and more than 100 indigenous species make their home here.", 
                 time: 480
             }
-        ] 
-    }
+        ]
+    }, 
 ];
 
 module.exports = AllTrips;
