@@ -50,7 +50,7 @@ module.exports = async (airportStartCode, justOneTrip) => {
             url: 'https://hotel-price-aggregator.p.rapidapi.com/search',
             params: {q: justOneTrip.name},
             headers: {
-                'X-RapidAPI-Key': '55952a2328msh42648699cd5dbf5p16e024jsn7df7c9cf178b',
+                'X-RapidAPI-Key': '59e0516923msh35fa7a4fe8f71a6p1bc76ejsn19a411fca866',
                 'X-RapidAPI-Host': 'hotel-price-aggregator.p.rapidapi.com'
             }
         };

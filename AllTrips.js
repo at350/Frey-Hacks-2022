@@ -26,7 +26,6 @@ const AllTrips = [
         // },
         social: [
             {
-                // REPLACE THIS
                 name: "WICE (Where Internationals Connect in English)",
                 description: "Over the decades, Projects that began at WICE and continue to this day are the highly-esteemed Paris Writers’ Workshop, and the innovative literary journal Upstairs at Duroc. WICE has been at the center of the Anglophone community in Paris. WICE’s special projects for our members have included books on the French healthcare system, a professional women’s conference, and a job fair for English-speakers in Paris. WICE’s range of courses evolves with the needs and interests of our community. What was once an organization geared toward continuing education for women, now welcomes everyone for walking tours, museum visits, and classes in creative writing, visual arts, cooking, wine and more.",
                 link:'https://www.wice-paris.org/WICE-About',
@@ -42,16 +41,17 @@ const AllTrips = [
                 name: "Je m’Engage", 
                 description: "Run by the City of Paris to encourage not only volunteer work, but also to foster greater civic participation and community-building. They host regular information events in Paris where you can browse the tables to get brochures and meet the local organizations looking for volunteers.", 
                 link: "https://jemengage.paris.fr/",
+                time: 120
             }, 
             {
                 name: "Secours Catholique", 
                 description: "A charity created by the Catholic priest Monseigneur Rodhain in 1946 after the horrors of the occupation during WWII. Today the organization is one of the largest in France, with local and international humanitarian projects. They recruit regularly for short and long-term missions in France and overseas.", 
-                link: 'https://www.secours-catholique.org/donnez-du-temps-au-secours-catholique'
+                link: 'https://www.secours-catholique.org/donnez-du-temps-au-secours-catholique',
+                time: 120
             }
         ],
         attractions: [
             {
-                // ADD MORE ATTRACTIONS
                 name: "Eiffel Tower",
                 description: "The Eiffel Tower is a wrought iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower. The tower is 324 metres (1,099 ft) tall, and stands a total of 324 metres (1,099 ft) to the ground. The tower is completed in 1887.",
                 time: 30,
@@ -61,7 +61,7 @@ const AllTrips = [
                 name: "Musée du Louvre", 
                 description: "A sumptuous palace that was once the home of France's kings, the Louvre is the most important of Paris' top museums. Visitors enter the museum in the courtyard of the palace at the Pyramid du Louvre, the glass pyramid designed by Ieoh Ming Pei in 1917. The Musée du Louvre displays thousands of artworks, many of which are considered masterpieces, from antiquities to European paintings of the 15th to 19th centuries.", 
                 time: 180, 
-                link: "https://timesofindia.indiatimes.com/travel/paris/muse-du-louvre/ps44842285.cms"
+                link: "https://www.oteis.fr/wp-content/uploads/2016/05/3-1.jpg"
             }, 
             {
                 name: "Cathédrale Notre-Dame de Paris", 
@@ -94,31 +94,34 @@ const AllTrips = [
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=19.02707968084073~72.9655540715238&lvl=9.476137668536495&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
         latitude: 19.0760, 
         longitude: 72.8777, 
-        hotels: [
-            {
-                name: 'The Oberoi Mumbai',
-                stars: 4.8,
-                price: 140,
-                //price per night
-            },
-            {
-                name: 'Novotel Mumbai',
-                stars: 4.6,
-                price: 140,
-            }
-        ],
-        flight: {
-            name: 'Delta Airlines',
-            price: 584,
-        },
+        // hotels: [
+        //     {
+        //         name: 'The Oberoi Mumbai',
+        //         stars: 4.8,
+        //         price: 140,
+        //         //price per night
+        //     },
+        //     {
+        //         name: 'Novotel Mumbai',
+        //         stars: 4.6,
+        //         price: 140,
+        //     }
+        // ],
+        // flight: {
+        //     name: 'Delta Airlines',
+        //     price: 584,
+        // },
         social: [
             {
                 name: "Rotaract Club Of Mumbai DownTown",
-                description: "A voluntary youth club which has been running continuously since 1972."
+                description: "A voluntary youth club which has been running continuously since 1972.",
+                time: 120,
+                link: 'https://rcmdt.webs.com/'
             },
             {
                 name: "Connect For",
-                description: "A voluntary organisation running since 2004 which focuses on the development of the youth and the community and their education."
+                description: "A voluntary organisation running since 2004 which focuses on the development of the youth and the community and their education.",
+                link: 'https://www.connectfor.org/'
             }
         ],
         attractions: [
@@ -132,7 +135,7 @@ const AllTrips = [
                 name: "Taj Mahal Palace",
                 description: "Tourists can find another popular site right near the Gateway of India: The Taj Mahal Palace, Mumbai and Tower. More than a century old, India's first luxury hotel is revered for the grandeur of its brownstone exterior. The windowed facade infuses its Renaissance architecture with Islamic touches, like corner turrets topped with onion domes, pointed archways, and covered balconies.",
                 time: 60, 
-                link: "h,ttps://upload.wikimedia.org/wikipedia/commons/0/09/Mumbai_Aug_2018_%2843397784544%29.jpg"
+                link: "https://upload.wikimedia.org/wikipedia/commons/0/09/Mumbai_Aug_2018_%2843397784544%29.jpg"
             },
             {
                 name: "Gateway of India",
@@ -160,17 +163,20 @@ const AllTrips = [
             {
                 name: "New York Cares",
                 description: "An organization that provides numerous volunteer opportunities around the city. Help tutor kids or make support calls for NYC!",
-                time: 180
+                time: 180,
+                link: 'https://www.newyorkcares.org/'
             },
             {
                 name: "Habitat for Humanity",
                 description: "A non-profit organization that provides shelter, food, and clothing to the homeless. HFH helps families rebuild.",
-                time: 180
+                time: 180,
+                link: 'https://habitatnys.org/'
             },
             {
                 name: "Good Shepherd Volunteers",
                 description: "Educate, counsel, and advocate for the children of New York.",
-                time: 120
+                time: 120,
+                link: 'https://www.gsvolunteers.org/'
             }
         ], 
         attractions: [
@@ -229,17 +235,20 @@ const AllTrips = [
             {
                 name: "Animal Welfare Party",
                 description: "An organization that works to create a better future for people, animals, and the environment.",
-                time: 60
+                time: 60,
+                link: 'https://www.animalwelfareparty.org/'
             },
             {
                 name: "Link Up London",
                 description: "Linking volunteers with skills to the people of London. They help charities connect with people that can help them.",
-                time: 120
+                time: 120,
+                link: 'https://linkuplondon.org/'
             },
             {
                 name: "Volunteer Centre Kensington & Chelsea",
                 description: "A volunteer center providing many opportunities from supporting community gardens to training mentees.",
-                time: 90
+                time: 90,
+                link: 'https://voluntarywork.org.uk/'
             }
         ], 
         attractions: [
@@ -310,13 +319,15 @@ const AllTrips = [
             {
                 name: "Friends for Asia",
                 description: "Friends for Asia aims to forge meaningful connections with locals and experience culture. Work includes helping communities in need around Bangkok.",
-                time: 60
+                time: 60,
+                link: 'https://www.friendsforasia.org/'
             }, 
             {
                 name: "Cross Cultural Foundation", 
                 description: "The Cross-Cultural Foundation works to build on peace-making efforts in conflict prone areas. Their work takes on a variety of forms from petitioning governments to defend human rights’, to providing legal aid to those in need, and working hands on with victims of torture to strengthen resilience in communities. Their work is needed in Thailand’s southernmost province where conflict ensues, as well as other similar places throughout the region.",
                 //https://courageouskitchen.org/2019/02/9-nonprofits-in-bangkok-you-should-know/
-                time: 150
+                time: 150,
+                link: 'https://namati.org/network/organization/cross-cultural-foundation-ccf/'
             }
         ], 
         attractions: [
@@ -384,6 +395,26 @@ const AllTrips = [
         link: 'https://a.cdn-hotels.com/gdcs/production172/d459/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.jpg',
         latitude: 25.2048, 
         longitude: 55.2708,
+        social: [
+            {
+                name: 'Dubai Volunteering Centre',
+                description: "Dubai Volunteering Centre is the first formal body established by the Dubai Government to manage volunteering services. It is an initiative of the Community Development Authority (CDA), and connects community causes with willing volunteers. The centre’s activities are held in partnership with various government, non-government, and private institutions in Dubai.",
+                time: 180,
+                link: 'https://www.cda.gov.ae/DubaiVolunteer/'
+            },
+            {
+                name: 'Dubai Cares',
+                description: 'Dubai Cares is a philanthropic organization that was established on September 19, 2007 by His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister of the UAE and Ruler of Dubai. It conducts various activities throughout the year and accepts volunteers.',
+                time: 200,
+                link: 'https://www.dubaicares.ae/'
+            },
+            {
+                name: 'National Fund',
+                description: 'National Fund (Sandooq Al Watan in Arabic) is a fund established to support Emiratis to get education, training and setting up a business. This fund was started by a group of Emirati businessmen in 2016. The fund aims to develop the economy and does this by investing in the human resource.One of its goals is to provide career guidance to 10,000 Emirati school students.',
+                time: 200,
+                link: 'https://sandooqalwatan.ae/'
+            }
+        ],
         attractions: [
             {
                 name: "Burj Khalifa",
@@ -437,6 +468,26 @@ const AllTrips = [
         link: "https://images.chinahighlights.com/allpicture/2021/07/ba7326f5e3544102917eb2c0_cut_800x500_349.jpg", 
         latitude: 39.9042, 
         longitude: 116.4074, 
+        social: [
+            {
+                name: "Beijing Cultural Heritage Protection Center (CHP)",
+                description: "CHP is a national resource center for heritage conservation, equipping local communities with awareness, strategy, organization, practical skills and training to preserve cultural heritage at local levels. ",
+                time: 180,
+                link: 'http://en.bjchp.org/'
+            },
+            {
+                name: "Beijing Donation Centers",
+                description: "The city government runs a network of charitable donation centers, which accept everything from used clothing to old computers and cash. Goods are donated to disaster areas.",
+                time: 180,
+                link: 'http://www.roundaboutchina.com/'
+            },
+            {
+                name: "Beijing Foundation",
+                description: "Beijing Foundation promotes transparent philanthropy and is working to create a philanthropic network to benefit Northern China.",
+                time: 180,
+                link: 'https://www.thebeijinger.com/directory/beijing-foundation'
+            }
+        ],
         attractions: [
             {
                 name: "Forbidden City",
@@ -490,6 +541,26 @@ const AllTrips = [
         link: "https://a.cdn-hotels.com/gdcs/production6/d781/3bae040b-2afb-4b11-9542-859eeb8ebaf1.jpg", 
         latitude: 41.0082, 
         longitude: 28.9784, 
+        social: [
+            {
+                name: 'Spor Istanbul',
+                description: 'Spor Instanbul aims to promote a healthier Instanbul through physical fitness as well as supporting social enterprise without any material interest.',
+                time: 180,
+                link: 'https://spor.istanbul/en/activities/become-a-volunteer/'
+            },
+            {
+                name: 'Istanbul&I',
+                description: 'Istanbul&I is an organization made up of young volunteers from all over the world dedicated to helping create a better community, one project at a time. They struggle for better living standards in the streets of Istanbul, with a mission to create a safer, more inclusive community.',
+                time: 180,
+                link: 'https://www.facebook.com/istanbulandi/'
+            },
+            {
+                name: 'Best Buddies',
+                description: 'Best Buddies is a global organization dedicated to helping adults and children with mental and developmental disabilities. Their main project is the voluntary buddy project.Volunteers partner with a disabled person based on gender, age, accommodation, and interests.',
+                time: 180,
+                link: 'https://www.bestbuddiesturkey.org/'
+            }
+        ],
         attractions: [
             {
                 name: "Hagia Sophia",
@@ -540,17 +611,20 @@ const AllTrips = [
             {
                 name: "HandsOn Tokyo",
                 description: "HandsOn Tokyo is a non-profit organization which brings foreign and local residents together to work on various charity events and social issues that benefit special needs children, elderly citizens and any other social groups in need of support.",
-                time: 60
+                time: 60,
+                link: 'https://www.handsontokyo.org/'
             },
             {
                 name: "Shine On! Kids",
                 description: "Shine On! Kids is an organization dedicated to supporting families with children battling cancer and other serious illnesses in Japan. This non-profit is aiming to create a complete patient support system in Japan by providing physical and emotional support for the affected children and their families.",
-                time: 60
+                time: 120,
+                link: 'https://sokids.org/'
             },
             {
                 name: "TELL (Tokyo English Live Line)",
                 description: "TELL is a not-for-profit organization with over 40 years of experience of providing free English counseling services and support for mental healthcare and suicide prevention to Japan’s international community.",
-                time: 60
+                time: 60,
+                link: 'https://telljp.com/'
             }
         ], 
         attractions: [
@@ -618,17 +692,20 @@ const AllTrips = [
             {
                 name: "Habitat for Humanity Korea",
                 description: "Habitat for Humanity Korea is a non-profit organization that provides emergency food, clothing, shelter, and other basic needs to the people of Korea.",
-                time: 120
+                time: 120,
+                link: 'https://www.habitat.org/ap/kr/city/south-korea-hfh'
             },
             {
                 name: "The Seoul Children's Hospital",
                 description: "The Seoul's Children's Hospital allows volunteers to book reservations to help sick children and facilitate activities.",
-                time: 240
+                time: 240,
+                link: 'https://childhosp.seoul.go.kr/'
             },
             {
                 name: "World Wide Opportunities on Organic Farms (WWOOF)",
                 description: "WWOOF's goals are to pursue organic farming and an eco-friendly life for farmers, volunteers, and everyday people, helping to build a sustainable world.",
-                time: 180
+                time: 180,
+                link: 'https://wwoof.net/'
             }
         ], 
         attractions: [
@@ -687,32 +764,38 @@ const AllTrips = [
             {
                 name:"Italian Union of the Blind and Visually Impaired ONLUS-APS",
                 description:"Founded in Genoa in 1920 by Aurelio Nicolodi, an officer who lost his sight during the First World War, for 100 years it has been promoting equality of rights throughout Italy with commitment and passion, to give light to blind, partially sighted and people with multiple disabilities",
-                time:90
+                time:90,
+                link: 'https://www.uiciechi.it/homeInglese.asp'
             },
             {
-                name:"South country food pantry in venice",
-                description:"The South Country Food Pantry, Inc.is an all-volunteer organization dedicated to gathering,organizing,and distributing food to those in need in Venice,Osprey,Laurel,and Nokomois,Florida",   
-                time:120
+                name:"South Country Food Pantry in Venice",
+                description:"The South Country Food Pantry, Inc. is an all-volunteer organization dedicated to gathering,organizing,and distributing food to those in need in Venice,Osprey,Laurel,and Nokomois,Florida",   
+                time:120,
+                link: 'http://southcountyfoodpantry.com/'
             },
             {    
-                name:"Women’s resource center",
-                description:"the women's Resource Center is a 501(C)3 nonprofit focused on providind women of all ages and backgrounds with support,resources and services",
-                time:60
+                name:"Women’s Resource Center",
+                description:"The Women's Resource Center is a 501(c)3 nonprofit focused on providind women of all ages and backgrounds with support,resources and services",
+                time:60,
+                link: 'https://www.womensresourcecenter.org/'
             },
             { 
                 name:"Fondazione Alvise Marotta",
                 description:"Our Mission is to grow more and more with the projects we carry out. Helping those who need help: continuing Alvise's life project, who dreamed of a better world",
-                time:90
+                time:90,
+                link: 'http://www.alvisemarotta.org/'
             },
             {
-                name:"Associazone Italiana per la Dnazione di Organi,T essuti e cellule PROVINCIA DI VENEZIA",
+                name:"Associazione Italiana Per La Donazione Di Organi, Tessuti E Cellule",
                 descritpion:"It is non-partisan, non-denominational, inter-ethnic, non-profit, informed by ethical principles and those dictated by the legal system of the State.",
-                time:120
+                time:120,
+                link: 'https://www.aido.bz.it/it'
             },
             {
                 name:"ATENEO VENETO",
                 description:"The Ateneo Veneto is the oldest active cultural institution in Venice. Founded in 1812, it has been operating for over two centuries in the exclusive pursuit of social solidarity purposes: its purpose is to cooperate in the development and dissemination of the sciences, letters, arts, in all their manifestations",
-                time:60
+                time:60,
+                link: 'https://ateneoveneto.org/it/'
             }
              
         ],           
@@ -761,44 +844,51 @@ const AllTrips = [
         // hotels: "", 
         // flight: , 
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=22.29786958783714~114.20097961044712&lvl=11.747362416276404&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
-        link: 'https://www.datacenterknowledge.com/sites/datacenterknowledge.com/files/styles/article_featured_retina/public/EBHM39.jpg?itok=PUzBwD5h',
+        link: 'https://wallpapercave.com/wp/wp4550589.jpg',
         latitude: 22.3193, 
         longitude: 114.1694, 
         social: [
             {
                 name:"HandsOn Hong Kong",
                 description:"  HOHK is a comprehensive hub for volunteer work in Hong Kong. They are involved with many of the charities listed here. Scroll down to find all the information you need below",
-                time:90
+                time:90,
+                link: 'https://www.handsonhongkong.org/volunteers'
             },
             {
                 name:"Hong Kong Alliance for Rare Diseases",
                 description:"This organization aims to enhance the understanding of rare diseases among patients, carers and their families; promote self-help and mutual support and positive attitude; and promote public education on rare diseases while strengthening community awareness, understanding and support for patients, their families and related self-help organizations",
-                time:60
+                time:60,
+                link: 'https://www.hkard.org/about?lang=en'
             },
             {
                 name:":Hong Kong Dog Rescue",
                 description:":HKDR started out as a one-woman effort to save dogs from being put down. Founder, Sally Andersen, and many dedicated volunteers aim to rescue, rehabilitate and re-home abandoned and unwanted dogs and puppies",
-                time:60
+                time:60,
+                link: 'https://hongkongdogrescue.com/'
             },
             {
                 name:"The Asia Society Hong Kong Center",
                 description:"Support victims of sexual violence as well as to promote anti-sexual violence/gender equality education. Sign up here to learn more about volunteer positions",
-                time:90
+                time:90,
+                link: 'https://asiasociety.org/hong-kong'
             },
             {
                 name:"Autism Partnership Foundation",
                 description:"BVP strives to enhance the quality of life of the visually impaired and elderly with low vision while focusing on social inclusion, social equality and social participation",
-                time:60
+                time:60,
+                link: 'https://www.apf.org.hk/en/'
             },
             {
-                name:"The Child Development Centre ",
+                name:"The Child Development Centre",
                 description:"They provide essential early identification and interventions to children with special educational needs. Though they receive support from the government and are committed to making their services affordable for all, having volunteers in the classrooms, on the Board and steering committees, along with sponsored events help them stay afloa",
-                time:60
+                time:60,
+                link: 'https://www.cdchk.org/'
             },
             {
-                name:"Clean Air Network ",
+                name:"Clean Air Network",
                 description:"Clean Air Network (CAN) is an independent NGO encouraging the public to speak out about the health impacts of air pollution",
-                time:90
+                time:90,
+                link: 'https://hongkongcan.org/'
             }    
         ], 
         attractions: [
@@ -851,32 +941,38 @@ const AllTrips = [
             {
                 name:"Homeboy Industries",
                 description:"Homeboy Industries serves high-risk, formerly gang-involved men and women with free services and programs, and operates several social enterprises that serve as job-training sites",                
-                time:60
+                time:60,
+                link: 'https://homeboyindustries.org/'
             },
             {
                 name:"Los Angeles Rescue Mission",
                 description:"The Los Angeles Mission has existed for 75 years providing help, hope and opportunity to men, women and children in need.The Mission hosts the annual Thanksgiving Feast, which attracts several celebrity volunteers",
-                time:60
+                time:60,
+                link: 'https://urm.org/'
             },
             {
                 name:"Big Brother Big Sisters of America",
                 description:"Big Brothers Big Sisters staff members work with their partners in the education and juvenile justice communities to find children facing adversity and assess how their programs can have the greatest impact",
-                time:60
+                time:60,
+                link: 'https://bbbsla.org/'
             },
             {
                 name:"L.A.Works",
                 description:"In 1990, L.A. Works took shape from a hope by the founders that if individuals worked together on local needs through hands-on service, they would feel empowered to address the broader racial and economic divides of their neighborhoods and cities. Their planning was only hastened by the March 1991 beating of Rodney King by members of the LAPD, which brought a combustive mix of racial tension and civil discord out in the open",
-                time:90       
+                time:90,
+                link: 'https://www.laworks.com/'       
             },
             {
                 name:"Big Sunday",
                 description:"Big Sunday connects people through helping. We offer an enormous variety of opportunities and projects that unite people to improve lives, build community, and give everyone a sense of belonging.",
-                time:120
+                time:120,
+                link: 'https://bigsunday.org/'
             },
             {
                 name:"HOPE FOR LA",
                 description:"Hope for los Angeles transformed Spiritually,relationally and economically by the demonstration of Christ love",
-                time:60
+                time:60,
+                link: 'https://www.hopeforla.org/'
             }     
         ], 
         attractions: [
@@ -929,32 +1025,38 @@ const AllTrips = [
             {
                 name:"Volunteers of America of illinois",
                 description:"VOA Illinois supports individuals, families, and communities who need it most, when they need it most",
-                time:90
+                time:90,
+                link:"https://www.voa.org/illinois"
             },
             {
                 name:"The Service Club of Chicago",
                 description:"The Service Club of Chicago is a charitable organization of women which has continually served the charitable needs of Chicago and its surrounding communities since 1890.",
-                time: 60
+                time: 60,
+                link:"https://theserviceclubofchicago.org/"
             },
             {
                 name:"Boys and girls of Chicago ",
                 description:"Founded in 1902, the Boys & Girls Clubs of Chicago’s mission is to enable all young people, especially those who need us most, to reach their full potential as productive, caring, responsible citizens.",
-                time:240
+                time:240,
+                link:"https://www.bgs.org/chicago/about-us/bgs-chicago-mission"
             },
             {
                 name:"Team Humanity USA",
                 description:"We are committed to providing humanitarian and educational outreach to vulnerable communities in the US and abroad by responding to major emergencies, fighting disease and poverty, as well as nurturing and promoting human welfare.",
-                time:300
+                time:300,
+                link:"https://www.teamhumanity.org/"
             },
             {
                 name:"Cradles to Crayons",
                 description:"At Cradles to Crayons, our entire organization is driven by a focused and all-important goal: to make life better for children in need. To make this happen, it takes a wide variety of individuals and groups to come together to make a difference in their local communities. ",
-                time:120
+                time:120,
+                link:"https://www.cradles2crayons.org/"
             },
             {
                 name:"Ronald McDonald House Charities",
                 description:"Enabling families to stay close to their hospitalized child supports the child’s health and well-being while saving families more than $9 million in hotel and food costs each year.Our Mission and Impact",
-                time:600
+                time:600,
+                link:"https://www.rmhch.org/"
             }
         ],        
         attractions: [
@@ -1007,32 +1109,38 @@ const AllTrips = [
             {
                 name:"EDUMAIS",
                 description:":Founded in 2016, EduMais is an NGO that provides high-quality education to underprivileged children and teenagers in Rio de Janeiro, Brazil.",
-                time:120
+                time:120,
+                link: "https://edumais.org/"
             },
             {
                 name:"Mais caminhos",
                 description:"Develop people by connecting them in an international environment.  We offer educational, cultural and fun activities to our clients and to underprivileged Brazilian children and teenagers.",
-                time:90
+                time:90,
+                link: "https://caminhoslanguages.com/about-caminhos/mais-caminhos-social-program/"
             },
             {
                 name:"Project favela",
                 description:":Our priority is teaching our youngest children to be classroom ready. Teaching them self control, focus, developing their cognitive and motor skill abilities is an extremely important part of what we do",
-                time:60
+                time:60,
+                link : "https://www.projectfavela.org/"
             },
             {
                 name:"Heinrich Bool STIFTUNG",
                 description:"The Heinrich Böll Foundation is a non-profit German political organization. Our fundamental principles are those of ecology and sustainability, democracy and human rights, self-determination and social justice.",
-                time:200
+                time:200,
+                link: 'https://br.boell.org/en'
             },
             {
                 name:"REDEH-Human develpment network",
                 description:"REDEH – Human Development Network , created in 1990, is a non-profit civil association, without political affiliation or religious orientation, and its mission is to promote human development that includes equality between genders, races/ethnicities, the fair and sustainable development, the protection and conservation of the environment and the promotion of cultural diversity.",
-                time:180
+                time:180,
+                link: "http://www.redeh.org.br/english/"
             },
             {
                 name:"Brazillian Society for Solidarity",
                 description:"The Brazilian Society for Solidarity was born with the dream of stimulating the encounter of the individual with their potential so that they recognize their role in society and can build their future in a dignified way.",
-                time:90
+                time:90,
+                link: "https://www.braziliansolidarity.org/"
             }
         ],
         attractions: [
@@ -1181,17 +1289,20 @@ const AllTrips = [
             {
                 name: "Musicians On Call",
                 description: "If you’re looking for a volunteer opportunity that rocks, Musicians On Call is playing your tune. This harmonious organization brings live and recorded music to the bedsides of patients who are facing all manner of challenging health issues.",
-                time: 180
+                time: 180,
+                link: "https://www.musiciansoncall.org/"
             },
             {
                 name: "Shanti Project",
                 description: "This special project cultivates compassion to help eliminate the isolation San Francisco’s at-risk populations face. It accepts both single and group volunteers to care for those who have life-altering or life-threatening conditions..",
-                time: 180
+                time: 180,
+                link: "https://www.shantiproject.org/"
             },
             {
                 name: "Nature in the City",
                 description: "As the name suggests, Nature in the City is an environmental organization that looks after San Francisco’s original locals – it aims to connect the city with its natural roots by conserving local habitats. It hosts multiple monthly meet-ups at places like Alemany Farm and Palou Phelps Park that volunteers help restore.",
-                time: 180
+                time: 180,
+                link: "https://www.natureinthecity.org/"
             }
         ], 
         attractions: [
@@ -1259,17 +1370,20 @@ const AllTrips = [
             {
                 name: "RomAltruista",
                 description: "Altruistic Rome is a non-profit organization founded in 2011 to introduce in Rome the concept of flexible volunteering. This new idea means that you can volunteer according to your availability, without having to ensure continuity.",
-                time: 180
+                time: 180,
+                link: "https://www.romaltruista.it/"
             },
             {
                 name: "Joel Nafuma Refugee Center (JNRC)",
                 description: "Operating in the crypt of St. Paul’s Within the Walls Episcopal Church, in the heart of Rome, JNRC is a day center for refugees and asylum seekers to relax, learn, and receive advice in order to achieve their goals. As most of their guests are homeless sleeping in parks and main stations around the city, the JNRC offers a holistic approach with services from basic supplies, a relaxing atmosphere, legal and social advice.",
-                time: 180
+                time: 180,
+                link: "https://www.jnrc.it/"
             },
             {
                 name: "Mother Teresa of Calcutta Center (MTC)",
                 description: "MTC is a non-profit organization established and directed by the Missionaries of Charity, the religious family founded by Saint Teresa of Calcutta, to be a unique and authoritative source of information on Mother Teresa —the nun of the poor, known throughout the world for her humanitarian work.Its aim is to promote genuine devotion to Mother Teresa and authentic knowledge of her life, work, holiness, and spirituality.",
-                time: 180
+                time: 180,
+                link: "https://www.mtc.org/"
             }
         ], 
         attractions: [
@@ -1337,12 +1451,14 @@ const AllTrips = [
             {
                 name: "The British & Commonwealth Benevolent Society",
                 description: "Independent British charity. Provides welfare, social and general help to British people and the related community. Montes Escandinavos 405, Col. ",
-                time: 180
+                time: 180,
+                link: "https://www.bcs.org.uk/"
             },
             {
-                name: "El Pozo de Vida \"The Well of Life\"",
+                name: "El Pozo de Vida - The Well of Life",
                 description: "US non-profit organization based in Mexico City. Builds awareness of and tracks and fights human trafficking and modern-day slavery. Runs a rescue home for the rehabilitation of underaged sex victims.",
-                time: 180
+                time: 180,
+                link: "https://www.elpozodevida.org.mx/"
             }
         ], 
         attractions: [
@@ -1410,17 +1526,19 @@ const AllTrips = [
                 name: "Virlanie Foundation",
                 description: "Virlanie Foundation is a private, non-profit organization reaching out to street children in the Philippines. Virlanie has been helping children who come from difficult situation to become a responsible and an independent adult.",
                 time: 180, 
-                link: ""
+                link: "https://www.virlanie.org"
             },
             {
                 name: "ProGay Philippines",
                 description: "Membership organization that provides education, organizing, public advocacy, counseling and documentation services for LGBT issues and concerns",
-                time: 180
+                time: 180,
+                link: "https://www.progay.ph"
             },
             {
                 name: "RMHC Philippines",
                 description: "Ronald McDonald House Charities, a non-profit, 501 (c) (3) corporation, creates, finds and supports programs that directly improve the health and well being of children.",
-                time: 120
+                time: 120,
+                link: "https://www.rmhc.org.ph"
             }
         ], 
         attractions: [
@@ -1488,22 +1606,26 @@ const AllTrips = [
             {
                 name: "67 Blankets for Nelson Mandela Day",
                 description: "67 Blankets for Nelson Mandela Day is a charity that collects handmade knitted or crocheted blankets from volunteers to distribute to a specific charity each year on Mandela Day.",
-                time: 180
+                time: 180,
+                link: "https://www.67blankets.org/",
             },
             {
                 name: "The Viva Foundation Mandela Day Volunteer Opportunities",
                 description: "The Viva Foundation runs a variety of childcare and education projects in Mamelodi. Viva meets the most urgent needs, such as food-insecurity and inequality and facilitates access to the economy by supporting economic self-empowerment, through training and job-creation.",
-                time: 180
+                time: 180,
+                link: "https://www.vivafoundation.org/",
             },
             {
                 name: "Save The Children",
                 description: "Save The Children is a children’s charity that operates in Gauteng, KwaZulu-Natal, Limpopo and Free State, in five programme areas: early childhood care, health and nutrition, education, child protection and child rights governance.",
-                time: 120
+                time: 120,
+                link: "https://www.savethechildren.org/",
             },
             {
                 name: "LifeLine",
                 description: "LifeLine acts as an emotional first-aid station to the greater Pretoria area. This charity provides a confidential crisis intervention service that includes telephone counselling, face-to-face counselling, rape counselling and trauma counselling.",
-                time: 120
+                time: 120,
+                link: "https://lifelinepta.org.za/get-involved/volunteer/"
             }
 
         ], 

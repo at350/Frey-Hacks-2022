@@ -22,7 +22,9 @@ router.post('/', (req, res) => {
     const adults = req.body.adults;
     // const startDate = req.query.startDate;
     // const endDate = req.query.endDate;
-    const airportStartCode = req.body.iata;
+    const airportStartCode = req.body.iata.toUpperCase();
+    // console.log(airportStartCode);
+    // console.log(typeof(airportStartCode));
 
     // Shuffle the allTrips array
     allTrips.sort(() => Math.random() - 0.5); // idk what the hell this does, ill assume that it randomizes the array
@@ -45,9 +47,10 @@ router.post('/', (req, res) => {
     // }
 
     for (const thing in airports) {
-        if (thing.iata === airportStartCode) {
-            latStart = thing.lat;
-            longStart = thing.lon;
+        // console.log(airports[thing].iata);
+        if (airports[thing].iata && airports[thing].iata === airportStartCode) {
+            latStart = airports[thing].lat;
+            longStart = airports[thing].lon;
             break;
         }
     }
@@ -56,7 +59,8 @@ router.post('/', (req, res) => {
         let latEnd = trip.latitude;
         let longEnd = trip.longitude;
         let tripDistance = distance(latStart, longStart, latEnd, longEnd);
-        trip.price = tripDistance * 0.14;
+        console.log(tripDistance);
+        trip.price = Math.round(tripDistance * 0.14);
     });
 
     let counter = 0;
@@ -86,7 +90,7 @@ router.post('/', (req, res) => {
 
     // Return 404 if no trips are found, might want to change this!
     // if (filteredTrips.length === 0) {
-        // res.status(404).json({ message: 'No trips found' });
+    //     res.status(404).json({ message: 'No trips found' });
     // }
     // Return the filtered trips
     // res.json(filteredTrips);
