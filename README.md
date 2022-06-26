@@ -6,4 +6,4 @@ Run with `npm run dev` and go to localhost:5000
 
 
 App info:
-- Flight price refers to the flight per adult
+- Flight price refers to the price per adult
