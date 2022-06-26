@@ -7,6 +7,8 @@ const AllTrips = [
         description: "Paris is the capital of France on the Seine River. Its neoclassical architecture dates fro the modernization of the Napoleonic era, which continued under Naopleon III when the bridges and boulevards of the \"City of Love\" were built.",
         link:'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/2004_in_Paris_%28cc%29.jpg/640px-2004_in_Paris_%28cc%29.jpg',
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=48.85378779646817~2.344064655152124&lvl=9.192303196746868&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
+        latitude: 48.8566, 
+        longitude:  2.3522,
         // startDate: "2022-07-05",
         // endDate: "2022-07-13",
         // price: 1200,
@@ -90,6 +92,8 @@ const AllTrips = [
         // adults: 2,
         link: "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Asia/India/Mumbai/gateway-of-india-mumbai-xlarge.jpg",
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=19.02707968084073~72.9655540715238&lvl=9.476137668536495&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
+        latitude: 19.0760, 
+        longitude: 72.8777, 
         hotels: [
             {
                 name: 'The Oberoi Mumbai',
@@ -150,6 +154,8 @@ const AllTrips = [
         // flight: , 
         link: 'https://media.timeout.com/images/105829491/image.jpg',
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=40.762075762019236~-73.96789704818872&lvl=10.422435565642875&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
+        latitude: 40.7128, 
+        longitude: -74.0060, 
         social: [
             {
                 name: "New York Cares",
@@ -217,6 +223,8 @@ const AllTrips = [
         // flight: , 
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=51.502288541807815~-0.12032371804593822&lvl=10.280518329748068&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
         link: 'https://a.cdn-hotels.com/gdcs/production27/d274/43014cca-c88c-4061-ace8-58edc24531ee.jpg?impolicy=fcrop&w=800&h=533&q=medium', 
+        latitude: 51.5072, 
+        longitude: -0.1276, 
         social: [
             {
                 name: "Animal Welfare Party",
@@ -296,6 +304,8 @@ const AllTrips = [
         // flight: , 
         map: "https://www.bing.com/maps/embed?h=280&w=325&cp=13.750734486434226~100.51615337582325&lvl=10.020245235037088&typ=d&sty=r&src=SHELL&FORM=MBEDV8",
         link: 'https://a.cdn-hotels.com/gdcs/production172/d459/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.jpg', 
+        latitude: 13.7563, 
+        longitude: 100.5018,
         social: [
             {
                 name: "Friends for Asia",
@@ -372,6 +382,8 @@ const AllTrips = [
         // social: , 
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=25.270109038284417~55.329091178851286&lvl=10.42243556564288&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
         link: 'https://a.cdn-hotels.com/gdcs/production172/d459/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.jpg',
+        latitude: 25.2048, 
+        longitude: 55.2708,
         attractions: [
             {
                 name: "Burj Khalifa",
@@ -423,6 +435,8 @@ const AllTrips = [
         // social: , 
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=39.912710937974~116.49377222147314&lvl=8.67175700732491&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
         link: "https://images.chinahighlights.com/allpicture/2021/07/ba7326f5e3544102917eb2c0_cut_800x500_349.jpg", 
+        latitude: 39.9042, 
+        longitude: 116.4074, 
         attractions: [
             {
                 name: "Forbidden City",
@@ -474,6 +488,8 @@ const AllTrips = [
         // social: , 
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=41.01996474204469~28.984449052445143&lvl=10.280518329748066&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
         link: "https://a.cdn-hotels.com/gdcs/production6/d781/3bae040b-2afb-4b11-9542-859eeb8ebaf1.jpg", 
+        latitude: 41.0082, 
+        longitude: 28.9784, 
         attractions: [
             {
                 name: "Hagia Sophia",
@@ -518,6 +534,8 @@ const AllTrips = [
         // flight: , 
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=35.69653214183219~139.71319197988305&lvl=10.445996942721534&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
         link: 'https://www.gotokyo.org/en/plan/tokyo-outline/images/main.jpg',
+        latitude: 35.6762, 
+        longitude: 139.6503,
         social: [
             {
                 name: "HandsOn Tokyo",
@@ -594,6 +612,8 @@ const AllTrips = [
         // flight: , 
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=37.558886111949064~126.96271390977415&lvl=11.392294839827938&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
         link: "https://cdn.britannica.com/57/75757-050-122EC2ED/Changgyong-Palace-background-Seoul.jpg",
+        latitude: 37.5665, 
+        longitude: 126.9780, 
         social: [
             {
                 name: "Habitat for Humanity Korea",
@@ -661,6 +681,8 @@ const AllTrips = [
         // flight: , 
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=45.43656682405103~12.336926261439544&lvl=12.409825841593165&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
         link: "https://cdn.britannica.com/62/153462-050-3D4F41AF/Grand-Canal-Venice.jpg",
+        latitude: 45.4408 , 
+        longitude: 12.3155 , 
         social: [
             {
                 name:"Italian Union of the Blind and Visually Impaired ONLUS-APS",
@@ -740,6 +762,8 @@ const AllTrips = [
         // flight: , 
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=22.29786958783714~114.20097961044712&lvl=11.747362416276404&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
         link: 'https://www.datacenterknowledge.com/sites/datacenterknowledge.com/files/styles/article_featured_retina/public/EBHM39.jpg?itok=PUzBwD5h',
+        latitude: 22.3193, 
+        longitude: 114.1694, 
         social: [
             {
                 name:"HandsOn Hong Kong",
@@ -821,6 +845,8 @@ const AllTrips = [
         // flight: , 
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=34.05111155306486~-118.23892653328664&lvl=13.095850643988571&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
         link: 'https://www.tripsavvy.com/thmb/KoeNntA0et5H14VBnnQPvGoMrLQ=/2121x1413/filters:fill(auto,1)/GettyImages-947698310-1729da81e58f40058a9e45ba82532d57-2f992696318c42cbbd595ef3ec1043fd.jpg',
+        latitude:34.0522 , 
+        longitude: -118.2437, 
         social: [
             {
                 name:"Homeboy Industries",
@@ -897,7 +923,9 @@ const AllTrips = [
         // flight: , 
         map: 'https://www.bing.com/maps/embed?h=280&w=325&cp=41.87860616910237~-87.64776448350926&lvl=11.889279652171211&typ=d&sty=r&src=SHELL&FORM=MBEDV8',
         link: "https://www.fringechicago.com/wp-content/uploads/sites/448/2019/07/fringe-chicago-skyline.jpg",
-         social: [
+        latitude: 41.8781, 
+        longitude: -87.6298,
+        social: [
             {
                 name:"Volunteers of America of illinois",
                 description:"VOA Illinois supports individuals, families, and communities who need it most, when they need it most",
@@ -971,6 +999,8 @@ const AllTrips = [
         // adults: 2, 
         // hotels: "", 
         // flight: , 
+        latitude: -22.9068, 
+        longitude: 43.1729, 
         map: "https://www.bing.com/maps/embed?h=280&w=325&cp=-22.909292537176214~-43.20899425943702&lvl=13.498040974594359&typ=d&sty=r&src=SHELL&FORM=MBEDV8",
         link: "https://www.avianca.com/content/dam/avianca_new/destinos/semana/gig/1-porque-visitarla/destino-rio-de-janeiro-brazil-para-conocer-el-cerro-del-corcovado.jpg", 
          social: [
@@ -1062,6 +1092,8 @@ const AllTrips = [
         //     name: 'Qatar Airways',
         //     price: 600,
         // },
+        latitude: 30.0444, 
+        longitude: 31.2357, 
         map:"https://www.bing.com/maps/embed?h=280&w=325&cp=30.044192252197988~31.230152560376837&lvl=12.291469982776999&typ=d&sty=r&src=SHELL&FORM=MBEDV8",
         link: "https://ychef.files.bbci.co.uk/976x549/p07zy3y6.jpg",
         social: [
@@ -1141,6 +1173,8 @@ const AllTrips = [
         //     name: 'Air Asia',
         //     price: 600,
         // },
+        latitude: 37.7749, 
+        longitude: -122.4194, 
         map:"https://www.bing.com/maps/embed?h=280&w=325&cp=37.7628455724045~-122.44105736277515&lvl=12.173114123960836&typ=d&sty=r&src=SHELL&FORM=MBEDV8",
         link: "https://cdn.travelpulse.com/images/d3a9edf4-a957-df11-b491-006073e71405/e864929d-127a-4caf-9a15-7f9cd45160f0/630x355.jpg", 
         social: [
@@ -1217,6 +1251,8 @@ const AllTrips = [
         //     name: 'Air Asia',
         //     price: 600,
         // },
+        latitude: 41.9028, 
+        longitude: 12.4964, 
         map: "https://www.bing.com/maps/embed?h=280&w=325&cp=41.8887913627085~12.501223181589012&lvl=12.291469982776997&typ=d&sty=r&src=SHELL&FORM=MBEDV8",
         link: "https://res.klook.com/image/upload/Mobile/City/afmqgg5h0jl9wnr1dfmf.jpg", 
         social: [
@@ -1295,6 +1331,8 @@ const AllTrips = [
         // },
         map: "https://www.bing.com/maps/embed?h=280&w=325&cp=19.39971822848281~-99.15307826060274&lvl=10.020245235037088&typ=d&sty=r&src=SHELL&FORM=MBEDV8",
         link: 'https://traveler.marriott.com/wp-content/uploads/2021/10/Mexico-City-GI-1064279806.jpg',
+        latitude: 19.4326,
+        longitude: -99.1332, 
         social: [
             {
                 name: "The British & Commonwealth Benevolent Society",
@@ -1365,6 +1403,8 @@ const AllTrips = [
         // },
         map: "https://www.bing.com/maps/embed?h=280&w=325&cp=14.586831341731155~120.99135510750011&lvl=12.291469982776999&typ=d&sty=r&src=SHELL&FORM=MBEDV8",
         link: "https://webcdn.executivecentre.com/wp-content/uploads/2021/09/Article-GuideToManila-CityTEC.jpeg",
+        latitude: 14.5995, 
+        longitude: 120.9842,
         social: [
             {
                 name: "Virlanie Foundation",
@@ -1419,6 +1459,7 @@ const AllTrips = [
     {
         name: "Pretoria", 
         description: "The Pretoria National Botanic Garden, in the city's eastern suburbs, is a peaceful oasis close to the city. The 76-hectare gardens spotlight South African species, with more than half the country's tree species, as well as many flowering plants, cycads, aloes, and other impressive collections. A quartzite ridge slices the park into two sections, with vegetation in the warmer north-facing half contrasting with that in the colder south-facing section.", 
+        
         // startDate: "2022-07-05", 
         // endDate: "2022-07-13", 
         // price: 800,
@@ -1441,6 +1482,8 @@ const AllTrips = [
         // },
         map: "https://www.bing.com/maps/embed?h=280&w=325&cp=-25.74786515120418~28.189566262323183&lvl=12.953933408093764&typ=d&sty=r&src=SHELL&FORM=MBEDV8",
         link: "https://cdn.travelsafe-abroad.com/wp-content/uploads/pretoria-from-the-air_102637-1280x800.jpg", 
+        latitude: -25.7479, 
+        longitude: 28.2293, 
         social: [
             {
                 name: "67 Blankets for Nelson Mandela Day",

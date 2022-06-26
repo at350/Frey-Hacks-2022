@@ -4,15 +4,325 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="icon" href="https://github.com/StillAbeginnerr/frontend_freyhacks/blob/main/assets/images/iconimage.png?raw=true" type="image">
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css"
+rel="stylesheet"
+/>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kdam+Thmor+Pro&family=Rajdhani&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4179685835703279"
+ crossorigin="anonymous"></script>
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-203S8HEPY9"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <icon></icon>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <icon></icon>
+    <style>
+        .img-logo{
+    height: 250px;
+    width: 250px;
+    transition: transform 0.8s;
+}
+
+.img-logo:hover{
+    transform: scale(1.1);
+}
+
+.position{
+    position: relative;
+    bottom: 80px;
+}
+
+.swiper{
+    overflow: hidden;
+}
+
+.swiper-wrapper{
+    height: 400px;
+    text-align: center;
+}
+.img-swiper{
+    position: relative;
+left: 0%;
+}
+.swiper-slider{
+    text-align: center;
+}
+
+.map{
+    position: relative;
+    left:22%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #000000;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+    </style>
     <title>TransTravel</title>
 </head>
 <body>
-    {{!-- <div class="">
-        {{{body}}}
-    </div> --}}
-    {{{body}}}
+    <nav
+    class="
+      flex flex-wrap
+      items-center
+      justify-between
+      w-full
+      py-4
+      md:py-0
+      px-4
+      text-lg text-gray-700
+      bg-white
+    "
+  >
+  
+  <div>
+    <img src="https://github.com/StillAbeginnerr/frontend_freyhacks/blob/main/assets/images/title.png?raw=true" alt="logo" class="img-logo">
+  </div>
+
+     <svg
+        xmlns="http://www.w3.org/2000/svg"
+        id="menu-button"
+        class="h-6 w-6 cursor-pointer md:hidden block"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16"
+        />
+      </svg>
+   
+   <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+      <ul
+        class="
+          pt-4
+          text-base text-gray-700
+          md:flex
+          md:justify-between 
+          md:pt-0
+      position ">
+        <li>
+          <a class="md:p-4 py-2 block hover:text-blue-400" href="#"
+            >Account</a
+          >
+        </li>
+        <li>
+          <a class="md:p-4 py-2 block hover:text-blue-400" href="#"
+            >Trip Planner</a
+          >
+        </li>
+
+        <li>
+          <a class="md:p-4 py-2 block hover:text-blue-400" href="#"
+            >Blog</a
+          >
+        </li>
+        <li>
+          <a
+            class="md:p-4 py-2 block hover:text-blue-400 text-blue-500"
+            href="#"
+            >Get Started</a
+          >
+        </li>
+      </ul>
+    </div>
+</nav>
+{{{body}}}
+<footer class="footer" style="margin-top:10vh;">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>TransTravel</h4>
+                <ul>
+                   <li><img src="https://github.com/StillAbeginnerr/frontend_freyhacks/blob/main/assets/images/footer.png?raw=true"></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get Help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Swiper JS -->
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    cssMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
+  });
+</script>
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.js"
+></script>
+<script src="./assets/js/main.js"></script>
 </body>
 </html>
