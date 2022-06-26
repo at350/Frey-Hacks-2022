@@ -1,0 +1,17 @@
+iframe {
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.iframe-container {
+    text-align: center;
+}
+
+/* .idkplzcenter {
+    display: flex;
+    /* center the element */
+    /* align-items: center;
+    justify-content: center;
+} */ 
